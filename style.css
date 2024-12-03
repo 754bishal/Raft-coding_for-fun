@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    padding: 20px;
+}
+h1 {
+    text-align: center;
+}
+form, ul {
+    max-width: 600px;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+form label, form select, form input {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+button {
+    width: 100%;
+    background-color: #5cb85c;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #4cae4c;
+}
